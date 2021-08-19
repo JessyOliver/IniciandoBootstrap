@@ -1,0 +1,63 @@
+/*importando fontes do google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+/*configurações*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(253, 253, 253, 0.4), rgba(253, 253, 253, 0.4)), url(".././img/fundoPrin.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.corMenu {
+    background: linear-gradient(rgba(190, 190, 190, 0.192), rgba(105, 76, 3, 0.349));
+}
+
+.corMenuContato {
+    background: linear-gradient(rgba(190, 190, 190, 0.884), rgba(105, 76, 3, 0.801));
+}
+
+.estiloTitulo {
+    color: #441a07;
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+}
+
+.frasedeEfeito {
+    /* font-family: 'Lora', serif; */
+    color: #441a07;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+}
+
+.navFont {
+    font-size: 1.2rem;
+    font-family: 'Lora', serif;
+}
+
+.dourado {
+    color: #daa520;
+}
+
+.douradoBarra {
+    background-color: #daa520;
+}
+
+.estiloSobre {
+    margin-left: 2rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    text-align: justify;
+    text-decoration: solid;
+}
