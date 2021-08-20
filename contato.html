@@ -12,28 +12,25 @@
 
 <body>
 
+
+
     <!-- Barra do menu do site -->
-    <div class="pos-f-t">
+    <div class="pos-f-t sticky-top">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-light  p-4  corMenu">
                 <h5 class="  estiloTitulo">Resturante Vegan!</h5>
                 <span class=" frasedeEfeito  ">Cozinhar é fazer poesia, para ser degustada.</span>
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
-                    <a class="navbar-brand navFont " href="galeria.html">Galeria</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ">
-                            <a class="nav-item nav-link  navFont   " href="index.html">Início </a>
-                            <a class="nav-item nav-link navFont " href="nossospratos.html">Nossos Pratos</a>
-                            <a class="nav-item nav-link navFont active" href="contato.html">Contato  <span class="sr-only">(Página atual)</span></a>
-                            <a class="nav-item nav-link navFont " href="sobre.html">Sobre</a>
-                        </div>
+                <nav class="nav  navbar-expand-lg navbar-light ">
+                    <div class="navbar-nav ">
+                        <a class="nav-item nav-link  navFont   " href="index.html">Início </a>
+                        <a class="nav-item nav-link  navFont   " href="galeria.html">Galeria </a>
+                        <a class="nav-item nav-link navFont " href="nossospratos.html">Nossos Pratos</a>
+                        <a class="nav-item nav-link navFont active" href="contato.html">Contato  <span class="sr-only">(Página atual)</span></a>
+                        <a class="nav-item nav-link navFont " href="sobre.html">Sobre</a>
                     </div>
-                </nav>
 
+                </nav>
             </div>
 
         </div>
@@ -45,7 +42,9 @@
         </nav>
     </div>
 
-    <div class="container corMenuContato">
+    <!-- conteudo da pagina -->
+
+    <div class="container corMenuContato ">
 
         <div class="row">
 
@@ -97,12 +96,12 @@
                     </div>
                     <div id="txtAssunto"></div>
 
-                    <button type="submit" class="btn douradoBarra text-light mb-4  " onclick="enviar()">Enviar</button>
+                    <button type="submit" class="btn douradoBarra text-light mb-4 btnCentra " onclick="enviar()">Enviar</button>
                 </form>
 
             </div>
 
-            <div class="col-md-6 mt-5 text-light p-5">
+            <div class="col-md-6 mt-5  text-light p-5">
                 <h2> Endereço</h2>
                 <p class=" p-0 m-0">Rua Oswaldo Cruz, 308 </p>
                 <p class="p-0 m-0 "> Rio Vermelho</p>
@@ -112,7 +111,7 @@
 
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124410.03208737411!2d-38.5857350346541!3d-12.983777194935222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603533af4e2c3%3A0x248ac0dad7fedb8a!2zWcOqQmlzdHLDtA!5e0!3m2!1spt-BR!2sbr!4v1629408593283!5m2!1spt-BR!2sbr"
-                    width="460" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mb-3" id="map" onmousemove="mapZoom()" onmouseout="mapNormal()"></iframe>
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mb-3" id="map" onmousemove="mapZoom()" onmouseout="mapNormal()"></iframe>
 
             </div>
 
@@ -127,17 +126,23 @@
     <footer>
 
         <hr class="mt-5">
-        <div class="row m-3">
-            <div class="col-md-10">
 
-                <p class="font-weight-normal align-middle text-center p-0 ">&#0169; Creado por DesingPag</p>
+        <div class="row m-3 text-center">
+
+            <div class="col-md-8">
+
+                <p class="font-weight-normal align-middle  p-0 ">&#0169; Criado por Jessica_Oliver</p>
 
             </div>
 
-            <div class="col-md-2 text-right ">
-                <a class="m-2" href="https://www.linkedin.com/in/jessica-f-oliveira-330b091a5/" target="_blank" rel="noopener noreferrer"> <img src="./img/instagram.png" alt=""> </a>
+            <div class="col-md-4 mb-4  ">
+                <a class="m-2" href="https://www.linkedin.com/in/jessica-f-oliveira-330b091a5/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/instagram.png" alt="logo linkedin" width="8%">
+                </a>
 
-                <a href="https://github.com/JessyOliver" target="_blank" rel="noopener noreferrer"> <img src="./img/github.png" alt=""> </a>
+                <a href="https://github.com/JessyOliver" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/github.png" alt=" logo github" width="8%">
+                </a>
 
             </div>
         </div>

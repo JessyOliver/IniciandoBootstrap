@@ -150,7 +150,7 @@ function mapZoom() {
 }
 
 function mapNormal() {
-    map.style.width = '460px'
+    map.style.width = '400px'
     map.style.height = '300px'
 
 

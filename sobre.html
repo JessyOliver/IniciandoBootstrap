@@ -12,52 +12,64 @@
 
 <body>
 
+
     <!-- Barra do menu do site -->
-    <div class="pos-f-t">
+    <div class="pos-f-t sticky-top">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-light  p-4  corMenu">
                 <h5 class="  estiloTitulo">Resturante Vegan!</h5>
                 <span class=" frasedeEfeito  ">Cozinhar é fazer poesia, para ser degustada.</span>
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
-                    <a class="navbar-brand navFont " href="galeria.html">Galeria</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ">
-                            <a class="nav-item nav-link  navFont   " href="index.html">Início </a>
-                            <a class="nav-item nav-link navFont " href="nossospratos.html">Nossos Pratos</a>
-                            <a class="nav-item nav-link navFont " href="contato.html">Contato  </a>
-                            <a class="nav-item nav-link navFont active" href="sobre.html">Sobre <span class="sr-only">(Página atual)</span></a>
-                        </div>
+                <nav class="nav  navbar-expand-lg navbar-light ">
+                    <div class="navbar-nav ">
+                        <a class="nav-item nav-link  navFont   " href="index.html">Início </a>
+                        <a class="nav-item nav-link  navFont   " href="galeria.html">Galeria </a>
+                        <a class="nav-item nav-link navFont " href="nossospratos.html">Nossos Pratos</a>
+                        <a class="nav-item nav-link navFont " href="contato.html">Contato  </a>
+                        <a class="nav-item nav-link navFont active" href="sobre.html">Sobre <span class="sr-only">(Página atual)</span></a>
                     </div>
-                </nav>
 
+                </nav>
             </div>
 
         </div>
         <nav class="navbar navbar-light bg-transparent ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
         </nav>
     </div>
 
+    <!-- conteudo da pagina -->
+
     <div class="container">
 
-        <div class="jumbotron jumbotron-fluid corMenu">
+        <div class="jumbotron jumbotron-fluid corMenu w-60">
             <div class="container m-3">
                 <h1 class="display-4  estiloTitulo m-4 text-center">Resturante Vegan!</h1>
-                <p class="lead estiloSobre">A história do Resturante Vegan! começou em 1999. Jorge, que nasceu no Méximo, fazia mais uma viagem à Síria pra visitar a família e amigos. Nesta viagem conheceu Hala, jovem síria nascida em um povoado próximo a Damasco. Apaixonaram-se.
-                    Jorge pediu-a em casamento e Hala decidiu mudar-se para o México junto com o marido. No México construíram sua vida, família e o restaurante Cuahutemoc.</p>
-                <p class="lead estiloSobre">
-                    Das mãos de Hala saíam pratos mexicanos com um inevitável sotaque árabe. Lá, criaram o Taco Árabe e outras receitas em que Hala combinava secretamente um pouco da sua herança siria ao apimentado paladar mexicano de Jorge. Em 2008 acrescentaram mais um
-                    ingrediente à sua história quando se mudaram para o Brasil e abriram o restaurante Resturante Vegan!. Hala criou um cardápio genuinamente árabe, mas sem deixar de lado a herança dos anos em que viveu no México. O Taco Árabe entrou
-                    para a lista das receitas preparadas aqui, ao lado de tradicionais sírios como Falafel e o Arroz doce Mahlab. O Sabor da comida do Resturante Vegan! não nasceu no Brasil. Vem das especiarias trazidas das constantes viagens à Síria,
-                    das mãos ágeis e talentosas de Hala, do papo caloroso do Jorge. É um sabor cheio de personalidade, formado ao longo desta trajetória e dos encontros que eles tiveram pela vida. Bem vindo ao AL Àrabe. Bem vindo à nossa casa.
-                </p>
+
+                <div class="row w-80">
+                    <div class="col-md-6">
+
+                        <p class="lead estiloSobre">
+                            A história do Resturante Vegan! começou em 1999. Jorge, que nasceu no Méximo, fazia mais uma viagem à Síria pra visitar a família e amigos. Nesta viagem conheceu Hala, jovem síria nascida em um povoado próximo a Damasco. Apaixonaram-se. Jorge pediu-a
+                            em casamento e Hala decidiu mudar-se para o México junto com o marido. No México construíram sua vida, família e o restaurante Cuahutemoc. Das mãos de Hala saíam pratos mexicanos com um inevitável sotaque árabe. Lá, criaram
+                            o Taco Árabe e outras receitas em que Hala combinava secretamente um pouco da sua herança siria ao apimentado paladar mexicano de Jorge.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+
+                        <p class="lead estiloSobre">
+                            Hala criou um cardápio genuinamente árabe, mas sem deixar de lado a herança dos anos em que viveu no México. O Taco Árabe entrou para a lista das receitas preparadas aqui, ao lado de tradicionais sírios como Falafel e o Arroz doce Mahlab. O Sabor da comida
+                            do Resturante Vegan! não nasceu no Brasil. Vem das especiarias trazidas das constantes viagens à Síria, das mãos ágeis e talentosas de Hala, do papo caloroso do Jorge. É um sabor cheio de personalidade, formado ao longo desta
+                            trajetória e dos encontros que eles tiveram pela vida. Bem vindo ao AL Àrabe. Bem vindo à nossa casa.
+                        </p>
+                    </div>
+
+                </div>
+
+
                 <p class="lead estiloSobre  text-center">Jorge e Hala.</p>
             </div>
         </div>
@@ -68,17 +80,23 @@
     <footer>
 
         <hr class="mt-5">
-        <div class="row m-3">
-            <div class="col-md-10">
 
-                <p class="font-weight-normal align-middle text-center p-0 ">&#0169; Creado por DesingPag</p>
+        <div class="row m-3 text-center">
+
+            <div class="col-md-8">
+
+                <p class="font-weight-normal align-middle  p-0 ">&#0169; Criado por Jessica_Oliver</p>
 
             </div>
 
-            <div class="col-md-2 text-right ">
-                <a class="m-2" href="https://www.linkedin.com/in/jessica-f-oliveira-330b091a5/" target="_blank" rel="noopener noreferrer"> <img src="./img/instagram.png" alt=""> </a>
+            <div class="col-md-4 mb-4  ">
+                <a class="m-2" href="https://www.linkedin.com/in/jessica-f-oliveira-330b091a5/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/instagram.png" alt="logo linkedin" width="8%">
+                </a>
 
-                <a href="https://github.com/JessyOliver" target="_blank" rel="noopener noreferrer"> <img src="./img/github.png" alt=""> </a>
+                <a href="https://github.com/JessyOliver" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/github.png" alt=" logo github" width="8%">
+                </a>
 
             </div>
         </div>

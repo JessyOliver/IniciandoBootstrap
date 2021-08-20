@@ -13,27 +13,23 @@
 <body>
 
     <!-- Barra do menu do site -->
-    <div class="pos-f-t">
+    <div class="pos-f-t sticky-top">
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-light  p-4  bg-transparent">
+            <div class="bg-light  p-4  corMenu">
                 <h5 class="  estiloTitulo">Resturante Vegan!</h5>
                 <span class=" frasedeEfeito  ">Cozinhar é fazer poesia, para ser degustada.</span>
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
-                    <a class="navbar-brand navFont" href="galeria.html">Galeria</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ">
-                            <a class="nav-item nav-link  navFont active  " href="index.html">Início <span class="sr-only">(Página atual)</span></a>
-                            <a class="nav-item nav-link navFont" href="nossospratos.html">Nossos Pratos</a>
-                            <a class="nav-item nav-link navFont " href="contato.html">Contato</a>
-                            <a class="nav-item nav-link navFont " href="sobre.html">Sobre</a>
-                        </div>
-                    </div>
-                </nav>
+                <nav class="nav  navbar-expand-lg navbar-light ">
+                    <div class="navbar-nav ">
 
+                        <a class="nav-item nav-link  navFont active  " href="index.html">Início <span class="sr-only">(Página atual)</span></a>
+                        <a class="nav-item nav-link  navFont   " href="galeria.html">Galeria </a>
+                        <a class="nav-item nav-link navFont" href="nossospratos.html">Nossos Pratos</a>
+                        <a class="nav-item nav-link navFont " href="contato.html">Contato</a>
+                        <a class="nav-item nav-link navFont " href="sobre.html">Sobre</a>
+                    </div>
+
+                </nav>
             </div>
 
         </div>
@@ -45,13 +41,14 @@
         </nav>
     </div>
 
+    <!-- conteudo da pagina -->
     <div class="container">
 
 
 
-        <div class="card bg-dark text-white mt-2 mb-5 w-75">
-            <img class="card-img " src="./img/pratovegan1.jpg" alt="Prato principal da casa">
-            <div class="card-img-overlay  ">
+        <div class="card  mt-2 mb-5 w-75">
+            <img class="card-img " src="./img/pratovegan1.jpg " alt="Prato principal da casa">
+            <div class="card-img-overlay w-100 textoCaixaPrincipal ">
                 <h5 class="card-title ">Comida Vegana o que é ?</h5>
                 <p class="card-text">Tantas opções que não se resumem somente às saladas. Descubra o que faz um prato ser vegano e sua diversidade. Para entender o que é um prato vegano ou vegetariano, o caminho mais fácil é entender quais são os ingredientes de origem animal.</p>
                 <p class="card-text">Chefe Rodrigues</p>
@@ -126,17 +123,23 @@
     <footer>
 
         <hr class="mt-5">
-        <div class="row m-3">
-            <div class="col-md-10">
 
-                <p class="font-weight-normal align-middle text-center p-0 ">&#0169; Creado por DesingPag</p>
+        <div class="row m-3 text-center ">
+
+            <div class="col-md-8">
+
+                <p class="font-weight-normal align-middle  p-0 ">&#0169; Criado por Jessica_Oliver</p>
 
             </div>
 
-            <div class="col-md-2 text-right ">
-                <a class="m-2" href="https://www.linkedin.com/in/jessica-f-oliveira-330b091a5/" target="_blank" rel="noopener noreferrer"> <img src="./img/instagram.png" alt=""> </a>
+            <div class="col-md-4 mb-3  ">
+                <a class="m-2" href="https://www.linkedin.com/in/jessica-f-oliveira-330b091a5/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/instagram.png" alt="logo linkedin" width="8%">
+                </a>
 
-                <a href="https://github.com/JessyOliver" target="_blank" rel="noopener noreferrer"> <img src="./img/github.png" alt=""> </a>
+                <a href="https://github.com/JessyOliver" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/github.png" alt=" logo github" width="8%">
+                </a>
 
             </div>
         </div>
