@@ -51,11 +51,10 @@ body {
 
 .textoCaixaPrincipal {
     background-image: linear-gradient(rgba(82, 80, 80, 0.46), rgba(82, 80, 80, 0.46));
-    font-size: 2rem;
+    font-size: 0.95rem;
     padding: 5rem 5rem;
     color: azure;
     text-align: justify;
-    font-size: 1rem;
 }
 
 .dourado {
